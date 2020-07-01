@@ -25,6 +25,6 @@ public class fortuneCookieController {
     public String indexRoute() {
         int index = ThreadLocalRandom.current().nextInt(fortunePhrases.size());
 
-        return  fortunePhrases.get(index);
+        return fortunePhrases.get(index);
     }
 }
